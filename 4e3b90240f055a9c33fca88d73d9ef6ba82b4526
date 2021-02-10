@@ -1,0 +1,1 @@
+{"jobID":"ed91f2e1-6c5e-a73f-4b77-e791d1c9daf5","spec":{"type":"policy","cause":{"Message":"","User":"Anshul Sharma \u003coptimisticanshul@gmail.com\u003e"},"spec":{"default:helmrelease/nginxhello-hr":{"add":{},"remove":{"automated":"true"}}}},"result":null}
