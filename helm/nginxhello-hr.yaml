@@ -1,3 +1,4 @@
+---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
@@ -5,6 +6,7 @@ metadata:
   namespace: default
   annotations:
     fluxcd.io/ignore: "false"
+    fluxcd.io/automated: 'true'
 spec:
   chart:
     git: ssh://git@github.com/sharmaansh21/gitops-nginxhello.git
