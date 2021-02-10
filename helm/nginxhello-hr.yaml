@@ -1,3 +1,4 @@
+---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
@@ -8,7 +9,7 @@ metadata:
     fluxcd.io/automated: "true"
 spec:
   chart:
-    git: ssh://git@github.com/<git user>/gitops-nginxhello.git
+    git: ssh://git@github.com/sharmaansh21/gitops-nginxhello.git
     path: helm/chart
     ref: master
   rollback:

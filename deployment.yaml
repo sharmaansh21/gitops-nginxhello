@@ -9,7 +9,7 @@ metadata:
     fluxcd.io/ignore: "true"
     fluxcd.io/automated: "false"
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: nginxhello
@@ -19,7 +19,7 @@ spec:
         app: nginxhello
     spec:
       containers:
-      - image: nbrown/nginxhello:1.19.0
+      - image: nbrown/nginxhello:1.19
         name: nginxhello
         ports:
         - containerPort: 80
