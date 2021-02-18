@@ -1,0 +1,6 @@
+namespace: tempp
+releaseName: tempp
+
+git:
+  url: git@github.com:nbrownuk/gitops-nginxhello.git
+  path: canaries
